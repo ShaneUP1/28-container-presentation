@@ -1,23 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SearchBox = ({ onChange }) => {
-  <input
-    type="text"
-    onChange={onChange}
-  />;
-
+const SearchBox = ({ onSubmit }) => {
+  <form onSubmit={onSubmit}>
+    <input type="text" />
+    <input type="submit" value="Search" />
+  </form>;
 
   return (
-    <input
-      type="text"
-      onChange={onChange}
-    />
+    <form onSubmit={onSubmit}>
+      <input type="text" />
+      <input type="submit" value="Search" />
+    </form>
   );
 };
 
 SearchBox.propTypes = {
-  onChange: PropTypes.func.isRequired
+  onSubmit: PropTypes.func.isRequired
 };
 
 export default SearchBox;
