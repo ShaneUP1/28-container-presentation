@@ -9,7 +9,7 @@ const SearchBox = ({ onSubmit, handleChange }) => {
 
   return (
     <form onSubmit={onSubmit}>
-      <input type="text" onChange={handleChange}/>
+      <input type="text" onChange={handleChange} placeholder="What do you want to know?"/>
       <input type="submit" value="Search" />
     </form>
   );

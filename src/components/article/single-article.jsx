@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Article = ({ title, author, description }) => (
+const Article = ({ title, author, description, publishedAt }) => (
   <div>
     <h2>{title}</h2>
     {author ? <h3>{author}</h3> : null}
