@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`single-article component renders a single article 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Your Title Here
+    </h2>
+    <h3>
+      Jack Handy
+    </h3>
+    <p>
+      some deep thoughts by Jack Handy
+    </p>
+  </div>
+</DocumentFragment>
+`;
