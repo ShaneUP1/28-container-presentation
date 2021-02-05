@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search component submits search terms 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      placeholder="What do you want to know?"
+      type="text"
+    />
+    <input
+      type="submit"
+      value="Search"
+    />
+  </form>
+</DocumentFragment>
+`;

@@ -2,7 +2,9 @@
 
 exports[`article-list component renders a list of articles 1`] = `
 <DocumentFragment>
-  <ul>
+  <ul
+    data-testid="articles"
+  >
     <li>
       <div>
         <h2>
